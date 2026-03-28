@@ -27,7 +27,7 @@ A comprehensive skill pack that gives Claude deep UX/UI expertise. Drop it into 
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ux-ui-agent-skills.git
+git clone https://github.com/one-aisama/ux-ui-agent-skills.git
 ```
 
 ### 2. Copy into your project
