@@ -1,24 +1,20 @@
-# UX/UI Agent Skills — Enhanced Edition
+# UX/UI Agent Skills
 
 > Transform Claude into a **Senior Design Architect** with structured design tokens, accessibility standards, and production-ready component patterns.
 
 A comprehensive skill pack that gives Claude deep UX/UI expertise. Drop it into any project — get consistent, accessible, token-driven design outputs.
 
-**This is an enhanced fork** of [plugin87/ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills) with significant improvements across components, workflows, dark mode, and architecture.
-
 ---
 
-## What's New (vs Original)
+## Highlights
 
-| Area | Original | Enhanced |
-|------|----------|----------|
-| **CLAUDE.md** | Monolithic 393 lines | Modular: 80-line entry point + 4 focused docs |
-| **Components** | 26 components | 35+ components (+Divider, Spinner, Skeleton, Text, Pagination, Breadcrumb, Tabs, Command Palette, Toast) |
-| **Data Table** | 3-line feature list | Full interaction spec: sorting, multi-select, filtering, resize, responsive |
-| **Dark Mode** | Token swaps only | Complete strategy: shadows, icons, images, component overrides, testing checklist |
-| **Workflows** | Abstract templates | 10+ real examples, worked Button handoff, usability test scripts |
-| **Cross-References** | None | Components link to ARIA patterns, framework code, and tokens |
-| **Responsive** | Basic mentions | Per-component breakpoint behavior for organisms |
+- **Modular architecture** — lightweight 80-line CLAUDE.md entry point + 4 focused reference docs
+- **35+ components** — from atoms (Button, Spinner, Skeleton) to organisms (Data Table, Command Palette, Toast)
+- **Full interaction specs** — Data Table with sorting, multi-select, filtering, column resize, responsive card layout
+- **Dark mode strategy** — semantic token swaps, shadow behavior, icon guidance, component overrides, testing checklist
+- **Real workflow examples** — 10+ design review findings, Button handoff walkthrough, usability test scripts
+- **Cross-referenced** — components link to ARIA patterns, framework code, and tokens
+- **WCAG 2.2 AA** — accessibility-first with P0/P1/P2 prioritized checklist
 
 ---
 
@@ -149,12 +145,6 @@ This is a **starter kit** — adapt it to your project:
 
 - [Claude Code](https://claude.com/claude-code) CLI, desktop app, or any Claude-powered IDE
 - No build tools, dependencies, or runtime needed — pure knowledge layer
-
----
-
-## Credits
-
-Original concept by [plugin87](https://github.com/plugin87/ux-ui-agent-skills). Enhanced with expanded components, dark mode strategy, real workflow examples, and modular architecture.
 
 ---
 
